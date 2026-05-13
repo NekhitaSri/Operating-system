@@ -1,0 +1,120 @@
+
+# 1. Print current working directory
+pwd
+
+# 2. List files and folders
+ls
+
+# 3. List files with details
+ls -l
+
+# 4. List all hidden files
+ls -a
+
+# 5. Change directory
+cd folder_name
+
+# 6. Go back one directory
+cd ..
+
+# 7. Go to home directory
+cd ~
+
+# 8. Create a new directory
+mkdir myfolder
+
+# 9. Remove an empty directory
+rmdir myfolder
+
+# 10. Create a new file
+touch file.txt
+
+# 11. View file contents
+cat file.txt
+
+# 12. Copy files
+cp file1.txt file2.txt
+
+# 13. Move or rename files
+mv oldname.txt newname.txt
+
+# 14. Delete a file
+rm file.txt
+
+# 15. Delete directory with contents
+rm -r folder_name
+
+# 16. Clear terminal screen
+clear
+
+# 17. Display current date and time
+date
+
+# 18. Show current user
+whoami
+
+# 19. Show system information
+uname -a
+
+# 20. Display running processes
+ps
+
+# 21. Kill a process
+kill process_id
+
+# 22. Check disk space
+df -h
+
+# 23. Check memory usage
+free -h
+
+# 24. Find a file
+find . -name "file.txt"
+
+# 25. Search text inside files
+grep "word" file.txt
+
+# 26. Download files from internet
+wget URL
+
+# 27. Check internet connectivity
+ping google.com
+
+# 28. Show command history
+history
+
+# 29. Change file permissions
+chmod 755 file.sh
+
+# 30. Execute shell script
+bash script.sh
+
+# 31. Show manual/help page
+man ls
+
+# 32. Display first lines of file
+head file.txt
+
+# 33. Display last lines of file
+tail file.txt
+
+# 34. Compress files
+zip files.zip file.txt
+
+# 35. Extract zip files
+unzip files.zip
+
+# 36. Check IP address
+ip a
+
+# 37. Display logged in users
+who
+
+# 38. Restart system
+sudo reboot
+
+# 39. Shutdown system
+sudo shutdown now
+
+# 40. Update package list (Ubuntu/Debian)
+sudo apt update
